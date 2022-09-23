@@ -72,15 +72,13 @@ h3 {
 }
 
 .rectangle4 {
-
   position: absolute;
   width: 95.58px;
   height: 22.02px;
   left: 294px;
   top: 65.79px;
   background: #ebebff;
- transform: rotate(-30deg);
-
+  transform: rotate(-30deg);
 }
 
 .elipse3 {
@@ -93,7 +91,6 @@ h3 {
 }
 
 .elipse15 {
-
   box-sizing: border-box;
   position: absolute;
   width: 15px;
@@ -101,7 +98,7 @@ h3 {
   left: 53px;
   top: 645px;
   background: #fff;
- border: 1px solid #cbcdff;
+  border: 1px solid #cbcdff;
 }
 
 .elipse14  {
@@ -123,7 +120,7 @@ h3 {
   left: 214px;
   top: 110px;
   background: #fff;
-  border: 1px solid #CBCDFF;
+  border: 1px solid #cbcdff;
 }
 
 .elipse11 {
@@ -137,29 +134,30 @@ h3 {
 }
 
 .rectangle6 {
-position: absolute;
-width: 51.99px;
-height: 9.3px;
-left: -34px;
-top: 141.49px;
-background: #EBEBFF;
-transform: rotate(-46.14deg);
+  position: absolute;
+  width: 51.99px;
+  height: 9.3px;
+  left: -34px;
+  top: 141.49px;
+  background: #ebebff;
+  transform: rotate(-46.14deg);
 }
-.elipse12 {
 
-position : absolute;
-width : 24.14px;
-height : 120.07px;
-left : 1034.76px;
-top : 546.69px;
-background : #6070ff;
-transform : rotate(-176.08deg);
+.elipse12 {
+  position: absolute;
+  width: 24.14px;
+  height: 120.07px;
+  left: 1034.76px;
+  top: 546.69px;
+  background: #6070ff;
+  transform: rotate(-176.08deg);
 }
+
 .elipse13 {
-  position : absolute;
-  width : 30.1px;
-  height : 30.1px;
-  left : 332.18px;
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 332.18px;
   top: 540.44px;
   background: #ebebff;
   transform: rotate(69.41deg);
@@ -183,8 +181,9 @@ transform : rotate(-176.08deg);
   background: #ebebff;
   transform: rotate(23.34deg);
 }
+
 .Elipse5 {
-  position : absolute;
+  position: absolute;
   width: 11px;
   height: 10px;
   left: 132.98px;
@@ -201,4 +200,4 @@ transform : rotate(-176.08deg);
   top: 1151.59px;
   background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-};
+}
