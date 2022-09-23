@@ -1,13 +1,13 @@
 
-*{
-    background-color:#FFFFFF;
+* {
+    background-color:#ffffff;
     fill: solid;
 }
 
-.logo{
+.logo {
     margin: 20px 30px;
 }
-.bar{
+.bar {
     font-family: Poppins;
     font-style:Bold;
     font-size: 30px;
@@ -21,11 +21,11 @@
     justify-content: space-between;
     
 }
-.icon{
+.icon {
     margin-top: 19px;
     margin-right: 1.5rem;
 }
-.name{
+.name {
     font-family: Poppins;
     font-size: 40px;
     line-height: 52px;
@@ -33,7 +33,7 @@
     vertical-align: center;
     color: #172b4d;
 }
-.sentence{
+.sentence {
     width: 500px;
     height: 100px;
     font-size: 20px;
@@ -43,29 +43,29 @@
     color:#344563;
     margin: 0rem 31.4rem;
 }
-header{
+header {
     
     text-align: center;
 }
-h3{
+h3 {
     text-align: center;
     color: #7f8cff;
     font-size: 20px;
 
 }
-.container{
+.container {
     color:#505f79;
     font-size: 20px;
     text-align: center;
     justify-content: space-between;
 }
-.fa{
+.fa {
     padding: 30px;
 }
-.fab{
+.fab {
     padding: 30px;
 }
-.rectangle4{
+.rectangle4 {
 
 position:absolute;
 width: 95.58px;
@@ -78,7 +78,7 @@ background: #EBEBFF;
 transform: rotate(-30deg);
 
 }
-.elipse3{
+.elipse3 {
 
 position: absolute;
 width: 105px;
@@ -87,7 +87,7 @@ left: 23px;
 top: 500.24px;
 background: #6070FF;
 }
-.elipse15{
+.elipse15 {
 
 box-sizing: border-box;
 
@@ -100,7 +100,7 @@ background: #FFFFFF;
 
 border: 1px solid #CBCDFF;
 }
-.elipse14{
+.elipse14  {
 
 box-sizing: border-box;
 
@@ -109,13 +109,10 @@ width: 11px;
 height: 11px;
 left: 298px;
 top: 315px;
-
-/* Neutrals/N0 */
 background: #FFFFFF;
-/* Primary/B100 */
 border: 1px solid #CBCDFF;
 }
-.elipse8{
+.elipse8 {
 
 box-sizing: border-box;
 
@@ -124,13 +121,10 @@ width: 15px;
 height: 15px;
 left: 214px;
 top: 110px;
-
-/* Neutrals/N0 */
 background: #FFFFFF;
-/* Primary/B100 */
 border: 1px solid #CBCDFF;
 }
-.elipse11{
+.elipse11 {
 
 position: absolute;
 width: 38.5px;
@@ -141,19 +135,17 @@ top: 161.47px;
 background: #6070FF;
 transform: rotate(-156.88deg);
 }
-.rectangle6{
+.rectangle6 {
 
 position: absolute;
 width: 51.99px;
 height: 9.3px;
 left: -34px;
 top: 141.49px;
-
-/* Primary/B50 */
 background: #EBEBFF;
 transform: rotate(-46.14deg);
 }
-.elipse12{
+.elipse12 {
 
 position: absolute;
 width: 24.14px;
@@ -164,7 +156,7 @@ top: 546.69px;
 background: #6070FF;
 transform: rotate(-176.08deg);
 }
-.elipse13{
+.elipse13 {
 
 position: absolute;
 width: 30.1px;
@@ -175,7 +167,7 @@ top: 540.44px;
 background: #EBEBFF;
 transform: rotate(69.41deg);
 }
-.elipse4{
+.elipse4 {
 
 position: absolute;
 width: 20px;
@@ -186,19 +178,17 @@ top: 657.1px;
 /* Primary/B400 */
 background: #6070FF;
 }
-.rectangle5{
+.rectangle5 {
 
 position: absolute;
 width: 68.06px;
 height: 12.18px;
 left: 191.82px;
 top: 653px;
-
-/* Primary/B50 */
 background: #EBEBFF;
 transform: rotate(23.34deg);
 }
-.Elipse5{
+.Elipse5 {
 
 position: absolute;
 width: 11px;
@@ -210,15 +200,13 @@ top: 15.81px;
 background: #CBCDFF;
 transform: rotate(52.97deg);
 }
-.rectangle7{
+.rectangle7 {
 
 position: absolute;
 width: 26.46px;
 height: 254.73px;
 left: 702.18px;
 top: 1151.59px;
-
-/* Primary/B400 */
 background: #6070FF;
 transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
