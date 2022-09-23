@@ -43,7 +43,7 @@
   text-align: center;
   vertical-align: center;
   color: #344563;
-  margin: 0rem 32rem;
+  margin: 0 32rem;
 }
 
 header {
@@ -199,4 +199,5 @@ h3 {
   left: 1302.18px;
   top: 151.59px;
   background: #6070ff;
-  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0); }
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+}
