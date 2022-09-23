@@ -3,6 +3,10 @@
     background-color:#FFFFFF;
     fill: solid;
 }
+
+.logo{
+    margin: 20px 30px;
+}
 .bar{
     font-family: Poppins;
     font-style:Bold;
@@ -19,6 +23,7 @@
 }
 .icon{
     margin-top: 19px;
+    margin-right: 1.5rem;
 }
 .name{
     font-family: Poppins;
@@ -29,12 +34,18 @@
     color: #172b4d;
 }
 .sentence{
+    width: 500px;
+    height: 100px;
     font-size: 20px;
     font-style: regular;
-    line-height: 100%;
+    line-height: 150%;
     text-align: center;
     color:#344563;
-
+    margin: 0rem 31.4rem;
+}
+header{
+    
+    text-align: center;
 }
 h3{
     text-align: center;
