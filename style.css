@@ -1,4 +1,4 @@
-.bar{
+.bar {
   display: flex;
   text-align: center;
   vertical-align: center;
@@ -8,17 +8,17 @@
   font-style: bold;
 }
 
-.icon{
+.icon {
   color: #acb7c3;
 }
 
-.name{
+.name {
   text-align: center;
   vertical-align: center;
   color: #172b4d;
 }
 
-.about{
+.about {
   padding-bottom: 50%;
   padding-top: 50%;
   font-size: 16px;
@@ -27,7 +27,7 @@
   vertical-align: top;
 }
 
-h3{
+h3 {
   text-align: left;
   vertical-align: top;
   font-size: 16px;
@@ -35,7 +35,7 @@ h3{
   font-style: normal;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   color: #505f79;
@@ -168,4 +168,3 @@ h3{
   background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
-
