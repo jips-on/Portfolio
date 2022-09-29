@@ -193,7 +193,7 @@ div ul {
 }
 
 div p {
-  width:295px;
+  width: 295px;
   height: 72px;
   top: 92px;
   left: 0px;
@@ -245,7 +245,7 @@ aside h1 {
   width: 327px;
   height: 101px;
   font-weight: 700;
-  font-family: 'poppins',sans-serif;
+  font-family: 'poppins', sans-serif;
   color: #172b4d;
   font-size: 40px;
   font-style: bold;
@@ -273,7 +273,6 @@ aside h3 {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
-  font-style: normal;
   margin-left: 20px;
 }
 
@@ -303,17 +302,17 @@ aside button {
   line-height: 80%;
   line-height: 24px;
   flex-direction: row;
-  color: #000000;
+  color: #000;
   font-size: 20px;
   font-weight: 500;
-  font-family: 'poppins',sans-serif;
+  font-family: 'poppins', sans-serif;
   width: 300px;
-  align-items:flex-start;
-  vertical-align:top;
+  align-items: flex-start;
+  vertical-align: top;
   padding-left: 0px;
 }
 
- #images {
+#images {
   display: flex;
   flex-direction: column;
   grid-template-rows: auto auto auto;
@@ -328,9 +327,8 @@ aside button {
   row-gap: 5px;
   color: #253858;
   font-size: 15px;
-  font-family: 'poppins',sans-serif;
+  font-family: 'poppins', sans-serif;
   font-style: medium;
-
 }
 
 .language {
@@ -348,7 +346,7 @@ aside button {
 
 .language-container {
   list-style: none;
-  color: #000000;
+  color: #000;
   height: 24px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
