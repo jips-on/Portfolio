@@ -21,7 +21,7 @@ nav a {
   margin-right: 1.5rem;
 }
 
-section h1 {
+.section-1 h1 {
   display: block;
   width: 327px;
   height: 150px;
@@ -33,7 +33,7 @@ section h1 {
   color: #172b4d;
 }
 
-section p {
+.section-1 p {
   width: 327px;
   height: 116px;
   top: 276px;
@@ -48,7 +48,7 @@ section p {
   vertical-align: top;
 }
 
-section h3 {
+.section-1 h3 {
   text-align: left;
   vertical-align: top;
   line-height: 24px;
@@ -59,7 +59,7 @@ section h3 {
   font-style: normal;
 }
 
-section ul {
+.section-1 ul {
   display: flex;
   justify-content: flex-start;
   color: #505f79;
@@ -67,17 +67,21 @@ section ul {
   right: 35px;
 }
 
-section ul li {
+.section-1 ul li {
   margin-right: 1.5rem;
 }
 
-section {
+.section-1 {
   text-align: left;
   background-image: url("header-shapes\ mobile.png");
   margin: 8px;
   width: 375px;
   height: 606px;
   margin-top: 5rem;
+}
+
+.section-2 {
+  display: grid;
 }
 
 .grid-container1 {
@@ -156,7 +160,7 @@ section {
   object-fit: contain;
 }
 
-div h2 {
+.section-2 div h2 {
   font-family: 'poppins', sans-serif;
   font-style: bold;
   font-size: 32px;
@@ -179,7 +183,7 @@ div h2 {
   font-weight: 800;
 }
 
-div ul {
+.section-2 div ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -192,7 +196,7 @@ div ul {
   padding-left: 2px;
 }
 
-div p {
+.section-2 div p {
   width: 295px;
   height: 72px;
   top: 92px;
@@ -205,22 +209,22 @@ div p {
   vertical-align: top;
   line-height: 24px;
   line-height: 100%;
+  margin-bottom: 5px;
 }
 
-.language-button {
+.section-2 .language-button {
   display: flex;
   justify-content: space-between;
   width: 250px;
-  height: 65px;
-  border-radius: 8px;
-  padding: 2px 2px;
+  height: 30px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 12px;
   color: #6070ff;
   font-style: medium;
   letter-spacing: 3%;
-  margin-top: 2px;
+  margin-top: 1px;
+  margin-bottom: 30px;
 }
 
 div button {
@@ -231,16 +235,16 @@ div button {
   font-size: 17px;
   letter-spacing: 3%;
   vertical-align: center;
-  margin-top: 35px;
+  margin-top: 75px;
 }
 
-aside {
+.section-3 {
   display: flex;
   flex-direction: column;
   width: 375px;
 }
 
-aside h1 {
+.section-3 h1 {
   width: 327px;
   height: 101px;
   font-weight: 700;
@@ -251,7 +255,7 @@ aside h1 {
   margin-left: 20px;
 }
 
-aside p {
+.section-3 p {
   width: 327px;
   height: 144px;
   top: 113px;
@@ -261,7 +265,7 @@ aside p {
   margin-left: 20px;
 }
 
-aside h3 {
+.section-3 h3 {
   width: 117px;
   height: 24px;
   font-style: medium;
@@ -285,7 +289,7 @@ aside h3 {
   padding-left: 2px;
 }
 
-aside button {
+.section-3 button {
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 3%;
@@ -294,21 +298,6 @@ aside button {
   font-style: medium;
   width: 150px;
   margin-left: 20px;
-}
-
-.section-container {
-  display: flex;
-  line-height: 80%;
-  line-height: 24px;
-  flex-direction: row;
-  color: #000;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: 'poppins', sans-serif;
-  width: 300px;
-  align-items: flex-start;
-  vertical-align: top;
-  padding-left: 2px;
 }
 
 #images {
@@ -351,7 +340,7 @@ aside button {
   font-weight: 500;
   font-size: 20px;
   width: 327px;
-  padding-left: 2px;
+  padding-left: 1px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -364,24 +353,6 @@ hr {
   top: 71px;
   color: #dfe1e6;
   margin-top: 2px;
-}
-
-.language-button button :enabled {
-  background-color: #fff;
-  border: 1px solid #7f8cff;
-}
-
-.language-button button :hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.language-button button :disabled {
-  color: #5e6c84;
-}
-
-.language-button button :active {
-  background-color: #2230d2;
 }
 
 .project-button {
@@ -407,8 +378,10 @@ hr {
   background-color: #fff;
   border: 1px solid #7f8cff;
   border-radius: 10px;
-  padding: 10px 10px;
+  padding: 5px 5px;
   cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 .resume:hover {
@@ -418,10 +391,57 @@ hr {
 
 .super-class {
   width: 303px;
+  height: 30px;
   font-size: 20px;
   text-align: left;
   font-style: medium;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  padding-left: 1px;
+}
+
+.html-button {
+  width: 49px;
+  height: 24px;
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 3%;
+  background-color: #ebebff;
+  border: #dfe1e6;
+}
+
+.css-button {
+  width: 49px;
+  height: 24px;
+  border-radius: 8px;
+  border: #dfe1e6;
+  font-size: 12px;
+  letter-spacing: 3%;
+  background-color: #ebebff;
+}
+
+.javascript-button {
+  width: 89px;
+  height: 24px;
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 3%;
+  background-color: #ebebff;
+  border: #dfe1e6;
+}
+
+.html-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.css-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.javascript-button:hover {
+  background-color: #6070ff;
+  color: white;
 }
