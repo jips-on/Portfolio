@@ -255,7 +255,7 @@ div button {
   margin-left: 20px;
 }
 
-.section-3 div p {
+.section-3 p {
   width: 327px;
   height: 144px;
   top: 113px;
@@ -263,6 +263,8 @@ div button {
   font-weight: 400;
   color: #344563;
   margin-left: 20px;
+  font-family: 'poppins', sans-serif;
+  color: #344563;
 }
 
 .section-3 h3 {
