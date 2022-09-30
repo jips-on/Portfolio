@@ -13,7 +13,7 @@ For the first milestone in the process of creating your portfolio website, we ne
 ## Built With
 
 - Major languages : HTML, JavaScript
-- Frameworks: Flex
+- Frameworks: Flex, Grid
 - Technologies used: HTML, CSS, GIT, Linters
 
 ## Getting Started
