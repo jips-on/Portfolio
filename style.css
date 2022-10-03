@@ -224,7 +224,7 @@ nav a {
 }
 
 .section-2 .language-button {
-  display: flex;
+  float: left;
   justify-content: space-between;
   width: 250px;
   height: 30px;
