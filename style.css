@@ -253,6 +253,7 @@ div button {
   display: flex;
   flex-direction: column;
   width: 375px;
+  height: 1000px;
 }
 
 .section-3 h1 {
@@ -446,3 +447,87 @@ hr {
   background-color: #6070ff;
   color: white;
 }
+
+footer {
+  background-color: #6070ff;
+  background-image: url("contact\ form\ shapes-mobile.png");
+  background-size: 375px 718px;
+  top: 5410px;
+  width: 375px;
+  height: 779px;
+  fill: solid;
+}
+
+form {
+  width: 375px;
+  height: 779px;
+  top: 5410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer legend {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  width: 327px;
+  height: 56px;
+  line-height: 52%;
+}
+
+footer p {
+  width: 327px;
+  height: 102px;
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: #ebebff;
+}
+
+footer ul {
+  width: 327px;
+  display: grid;
+  grid-template-rows: 25% 25% 50%;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1px;
+}
+
+input[type="text"] {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  color: #cfd8dc;
+  color: #fff;
+  text-align: left;
+}
+
+input[type="email"] {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  color: #cfd8dc;
+  color: #fff;
+  text-align: left;
+}
+
+textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  color: #cfd8dc;
+}
+
+input[type="submit"] {
+  width: 140px;
+  height: 48px;
+  border-radius: ;
+}
+
