@@ -471,11 +471,14 @@ hr {
 footer {
   background-color: #6070ff;
   background-image: url("contact\ form\ shapes-mobile.png");
-  background-size: 375px;
-  top: 5410px;
+  background-size: contain;
+  background-position: 120px 0px;
+  background-repeat: no-repeat;
   width: 375px;
-  height: 779px;
+  height: 810px;
   fill: solid;
+  border-top-left-radius: 90px;
+  margin-top: 50px;
 }
 
 form {
@@ -498,6 +501,7 @@ footer legend {
   width: 327px;
   height: 56px;
   line-height: 52%;
+  margin-top: 100px;
 }
 
 input[type="text"] {
@@ -556,4 +560,12 @@ input[value] {
 input[type="submit"]:hover {
   background-color: green;
   color: white;
+}
+
+input[type="submit"]:active {
+  background-color: #2230D2;
+}
+
+input[type="submit"]:disabled {
+  background-color: red;
 }
