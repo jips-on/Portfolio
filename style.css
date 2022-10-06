@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 header nav {
   display: flex;
@@ -27,7 +27,7 @@ header ul {
   height: 150px;
   font-size: 40px;
   font-weight: 700;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   line-height: 52px;
   text-align: left;
   color: #172b4d;
@@ -38,7 +38,7 @@ header ul {
 footer p {
   width: 327px;
   height: 102px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 20px;
   text-align: center;
   font-weight: 400;
@@ -55,7 +55,7 @@ footer p {
   font-size: 16px;
   line-height: 24px;
   line-height: 100%;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   color: #344563;
   text-align: left;
@@ -68,7 +68,7 @@ footer p {
   text-align: left;
   vertical-align: top;
   line-height: 24px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
@@ -204,6 +204,12 @@ footer ul {
   background-image: url("Snapshoot\ Portfolio\(2\)\ mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
+  transition: 0.5s ease;
+}
+
+.grid-container1 .grid-item1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 
 .grid-container3 .grid-item1 {
@@ -229,7 +235,7 @@ footer ul {
 }
 
 .section-2 div h2 {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: bold;
   font-size: 32px;
   text-align: left;
@@ -247,7 +253,7 @@ footer ul {
   color: #344563;
   text-align: left;
   vertical-align: top;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 800;
 }
 
@@ -260,7 +266,7 @@ footer ul {
   fill: solid;
   text-align: left;
   font-size: 13px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   padding-left: 2px;
 }
 
@@ -272,7 +278,7 @@ footer ul {
   font-weight: 400;
   color: #344563;
   margin-left: 20px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .section-2 div p {
@@ -281,7 +287,7 @@ footer ul {
   top: 92px;
   font-weight: 400;
   font-size: 15px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   align-items: left;
   color: #344563;
   fill: solid;
@@ -296,7 +302,7 @@ footer ul {
   justify-content: space-between;
   width: 250px;
   height: 30px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   color: #6070ff;
@@ -307,7 +313,7 @@ footer ul {
 }
 
 div button {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   text-align: center;
   color: #396df2;
@@ -328,7 +334,7 @@ div button {
   width: 327px;
   height: 101px;
   font-weight: 700;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #172b4d;
   font-size: 40px;
   font-style: bold;
@@ -342,7 +348,7 @@ div button {
   text-align: left;
   vertical-align: top;
   line-height: 24px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
@@ -363,7 +369,7 @@ div button {
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 3%;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #396df2;
   font-style: medium;
   width: 150px;
@@ -385,7 +391,7 @@ div button {
   row-gap: 5px;
   color: #253858;
   font-size: 15px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: medium;
 }
 
@@ -406,7 +412,7 @@ div button {
   list-style: none;
   color: #000;
   height: 24px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   width: 327px;
@@ -440,7 +446,7 @@ hr {
 
 .resume {
   width: 154px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   text-align: center;
@@ -545,7 +551,7 @@ footer legend {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   width: 327px;
   height: 56px;
   line-height: 52%;
@@ -584,7 +590,7 @@ input[type="submit"] {
   border-radius: 8px;
   padding: 12px 16px 12px 16px;
   color: #6070ff;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -626,7 +632,7 @@ input[type="submit"]:disabled {
   display: none;
 }
 
-.grid-container7{
+.grid-container7 {
   display: none;
 }
 
@@ -636,7 +642,7 @@ input[type="submit"]:disabled {
     display: flex;
     justify-content: end;
   }
-  
+
   header nav {
     width: 1440px;
     display: flex;
@@ -651,7 +657,7 @@ input[type="submit"]:disabled {
   header .fa-solid {
     display: none;
   }
-  
+
   header h2 {
     width: 76px;
     height: 20px;
@@ -684,7 +690,7 @@ input[type="submit"]:disabled {
     height: 816px;
     margin-top: 8px;
   }
-  
+
   .section-1 h1 {
     width: 920px;
     height: 122px;
@@ -692,7 +698,7 @@ input[type="submit"]:disabled {
     color: #091e42;
     margin-top: 1px;
   }
-   
+
   .section-1 div {
     width: 920px;
     padding-left: 260px;
@@ -713,14 +719,14 @@ input[type="submit"]:disabled {
     margin-top: 25px;
     margin-bottom: 1px;
   }
-  
+
   .section-1 h3 {
     width: 117px;
     height: 24px;
     text-align: left;
     vertical-align: top;
     line-height: 24px;
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #7f8cff;
@@ -736,13 +742,13 @@ input[type="submit"]:disabled {
   .section-2 {
     width: 1440px;
   }
-  
+
   .section-2 div p {
     width: 496px;
     height: 50px;
     font-size: 16px;
   }
-  
+
   .grid-container1 {
     width: 1156px;
     height: 496px;
@@ -767,7 +773,7 @@ input[type="submit"]:disabled {
     padding: 24px;
     background-repeat: no-repeat;
   }
-  
+
   .grid-container5 {
     width: 1156px;
     height: 496px;
@@ -802,10 +808,10 @@ input[type="submit"]:disabled {
   #canopy {
     font-weight: 500;
     font-size: 18px;
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     margin-right: 15px;
     width: 96px;
-    height: 24px; 
+    height: 24px;
   }
 
   .grid-container5 div ul {
@@ -870,11 +876,11 @@ input[type="submit"]:disabled {
   .grid-container3 {
     display: none;
   }
-  
+
   .grid-container4 {
     display: none;
   }
-  
+
   .for-pc {
     display: flex;
     flex-direction: column;
