@@ -256,6 +256,7 @@ footer ul {
   flex-direction: row;
   justify-content: space-between;
   width: 250px;
+  height: 16px;
   color: #7a869a;
   fill: solid;
   text-align: left;
@@ -431,6 +432,7 @@ hr {
   border-radius: 10px;
   padding: 10px 10px;
   cursor: pointer;
+  margin-top: 25px;
 }
 
 .project-button:hover {
@@ -474,6 +476,7 @@ hr {
 .html-button {
   width: 49px;
   height: 24px;
+  margin-top: 25px;
   border-radius: 8px;
   font-size: 12px;
   letter-spacing: 3%;
@@ -484,6 +487,7 @@ hr {
 .css-button {
   width: 49px;
   height: 24px;
+  margin-top: 25px;
   border-radius: 8px;
   border: #dfe1e6;
   font-size: 12px;
@@ -494,6 +498,7 @@ hr {
 .javascript-button {
   width: 89px;
   height: 24px;
+  margin-top: 25px;
   border-radius: 8px;
   font-size: 12px;
   letter-spacing: 3%;
@@ -700,6 +705,7 @@ input[type="submit"]:disabled {
     padding-top: 359px;
     padding-bottom: 435px;
   }
+  
   .section-1 p {
     width: 920px;
     height: 98px;
@@ -741,8 +747,10 @@ input[type="submit"]:disabled {
     width: 496px;
     height: 50px;
     font-size: 16px;
+    line-height: 25px;
+    margin-top: 25px;
   }
-  
+
   .grid-container1 {
     width: 1156px;
     height: 496px;
@@ -806,6 +814,17 @@ input[type="submit"]:disabled {
     margin-right: 15px;
     width: 96px;
     height: 24px; 
+  }
+
+  .rubyonrails-button {
+    width: 89px;
+    height: 24px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-size: 12px;
+    letter-spacing: 3%;
+    background-color: #ebebff;
+    border: #dfe1e6;
   }
 
   .grid-container5 div ul {
@@ -874,9 +893,41 @@ input[type="submit"]:disabled {
   .grid-container4 {
     display: none;
   }
-  
-  .for-pc {
+
+  footer {
+    width: 1440px;
+    height: 846px;
+    background-color: #6070ff;
+    background-image: url("contact\ form\ background\ shapes.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  form {
+    width: 1440px;
+    height: 846px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  footer legend {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    width: 327px;
+    height: 56px;
+    line-height: 52%;
+    margin-top: 100px;
+  }
+  form header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
