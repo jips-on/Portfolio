@@ -900,7 +900,6 @@ input[type="submit"]:disabled {
     display: none;
   }
 
-<<<<<<< HEAD
   footer {
     width: 1440px;
     height: 846px;
@@ -913,9 +912,6 @@ input[type="submit"]:disabled {
   form {
     width: 1440px;
     height: 846px;
-=======
-  .for-pc {
->>>>>>> b02ceff06f9f1917e3f5238a62a96f7c11f862ef
     display: flex;
     flex-direction: column;
     justify-content: center;
