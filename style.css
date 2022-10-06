@@ -665,6 +665,7 @@ input[type="submit"]:disabled {
     font-size: 18px;
     margin-left: 120px;
   }
+
   header ul {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -709,6 +710,16 @@ input[type="submit"]:disabled {
     padding-bottom: 435px;
   }
   
+  form header p {
+    width: 569px;
+    height: 102px;
+    font-size: 20px;
+  }
+  
+  p {
+    line-height: 24px;
+  }
+  
   .section-1 p {
     width: 920px;
     height: 98px;
@@ -745,6 +756,14 @@ input[type="submit"]:disabled {
   .section-2 {
     width: 1440px;
   }
+  
+  .for-pc p {
+    width: 447px;
+    height: 102px;
+    line-height: 24px;
+    font-size: 16px;
+    align-items: flex-end;
+  }
 
   .section-2 div p {
     width: 496px;
@@ -777,10 +796,6 @@ input[type="submit"]:disabled {
     border-radius: 8px;
     padding: 24px;
     background-repeat: no-repeat;
-  }
-  
-  p {
-    line-height: 24px;
   }
 
   .grid-container5 {
@@ -815,6 +830,11 @@ input[type="submit"]:disabled {
     line-height: 25px;
   }
   
+  .grid-container5 div ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .grid-container6 .grid-item2 ul {
     width: 400px;
     height: 24px;
@@ -830,7 +850,7 @@ input[type="submit"]:disabled {
     display: flex;
     align-items: center;
   }
-  
+
   .grid-container6 .grid-item2 p {
     width: 496px;
     height: 70px;
@@ -844,10 +864,11 @@ input[type="submit"]:disabled {
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   .section-2 h2 {
     font-size: 40px;
   }
+
   .grid-container1 .grid-item2 .subhead {
     width: 400px;
     height: 24px;
@@ -870,7 +891,6 @@ input[type="submit"]:disabled {
     font-family: "poppins", sans-serif;
     margin-right: 15px;
     width: 96px;
-    font-weight: 500;
     height: 24px;
   }
 
@@ -884,15 +904,10 @@ input[type="submit"]:disabled {
     background-color: #ebebff;
     border: #dfe1e6;
   }
-  
+
   .rubyonrails-button:hover {
     background-color: #6070ff;
     color: white;
-  }
-
-  .grid-container5 div ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .grid-container6 {
@@ -974,14 +989,7 @@ input[type="submit"]:disabled {
     margin-top: 142px;
     margin-bottom: 142px;
   }
-  .for-pc p {
-    width: 447px;
-    height: 102px;
-    line-height: 24px;
-    font-size: 16px;
-    align-items: flex-end;
-  }
-  
+
   .for-pc2 {
     width: 447px;
     height: 457px;
@@ -1028,6 +1036,7 @@ input[type="submit"]:disabled {
     line-height: 52%;
     margin-top: 100px;
   }
+  
   form header {
     display: flex;
     flex-direction: column;
@@ -1099,15 +1108,15 @@ input[type="submit"]:disabled {
     text-align: justify;
     gap: 12px;
     position: relative;
-    padding-left: 1px;
     width: 414px;
     height: 120px;
     border-radius: 8px;
     color: #253858;
     font-size: 15px;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
-
+  
   #images .language{
     display: flex;
     flex-direction: column;
@@ -1117,5 +1126,4 @@ input[type="submit"]:disabled {
     justify-content: center;
   }
   
-
 }
