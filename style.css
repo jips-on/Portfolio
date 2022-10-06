@@ -701,6 +701,12 @@ input[type="submit"]:disabled {
     line-height: 60px;
     letter-spacing: 0.37px;
   }
+  
+  form header p {
+    width: 569px;
+    height: 102px;
+    font-size: 20px;
+  }
 
   .section-1 div {
     width: 920px;
@@ -710,16 +716,9 @@ input[type="submit"]:disabled {
     padding-bottom: 435px;
   }
   
-  form header p {
-    width: 569px;
-    height: 102px;
-    font-size: 20px;
-  }
-  
   p {
     line-height: 24px;
   }
-  
   .section-1 p {
     width: 920px;
     height: 98px;
@@ -756,7 +755,7 @@ input[type="submit"]:disabled {
   .section-2 {
     width: 1440px;
   }
-  
+
   .for-pc p {
     width: 447px;
     height: 102px;
@@ -829,7 +828,7 @@ input[type="submit"]:disabled {
     padding-bottom: 10px;
     line-height: 25px;
   }
-  
+
   .grid-container5 div ul {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -979,7 +978,7 @@ input[type="submit"]:disabled {
     grid-template-columns: 589px 800px;
     column-gap: 50px;
   }
-  
+
   .for-pc {
     width: 447px;
     display: flex;
@@ -1002,10 +1001,9 @@ input[type="submit"]:disabled {
     margin-bottom: 142px;
     padding-top: 40px;
   }
-  
+
   .super-class {
     width: 648px;
-
   }
 
   footer {
@@ -1024,7 +1022,7 @@ input[type="submit"]:disabled {
     justify-content: center;
     align-items: top;
   }
-  
+
   footer legend {
     color: #fff;
     font-weight: 700;
@@ -1036,18 +1034,12 @@ input[type="submit"]:disabled {
     line-height: 52%;
     margin-top: 100px;
   }
-  
+
   form header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  form header p {
-    width: 569px;
-    height: 102px;
-    font-size: 20px;
   }
 
   form legend {
@@ -1101,7 +1093,7 @@ input[type="submit"]:disabled {
     margin-top: 2px;
   }
   
-  #images  {
+  #images {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1124,6 +1116,5 @@ input[type="submit"]:disabled {
     height: 120px;
     align-items: center;
     justify-content: center;
-  }
-  
+  }  
 }
