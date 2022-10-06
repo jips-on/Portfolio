@@ -702,6 +702,10 @@ input[type="submit"]:disabled {
     letter-spacing: 0.37px;
   }
   
+  p {
+    line-height: 24px;
+  }
+
   form header p {
     width: 569px;
     height: 102px;
@@ -716,10 +720,6 @@ input[type="submit"]:disabled {
     padding-bottom: 435px;
   }
 
-  p {
-    line-height: 24px;
-  }
-  
   .section-1 p {
     width: 920px;
     height: 98px;
@@ -1063,7 +1063,7 @@ input[type="submit"]:disabled {
     width: 447px;
     height: 170px;
     border-radius: 2px;
-  } 
+  }
 
   ul li input[type="submit"] {
     width: 142px;
@@ -1118,5 +1118,5 @@ input[type="submit"]:disabled {
     align-items: center;
     justify-content: center;
   }
-    
+  
 }
