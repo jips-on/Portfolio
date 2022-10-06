@@ -201,15 +201,10 @@ footer ul {
   top: 16px;
   width: 395px;
   height: 262px;
-  background-image: url("Snapshoot.png");
+  background-image: url("Snapshoot\ Portfolio\(2\)\ mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
   transition: 0.5s ease;
-}
-
-.grid-container1 .grid-item1:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease;
 }
 
 .grid-container3 .grid-item1 {
@@ -237,7 +232,7 @@ footer ul {
 .section-2 div h2 {
   font-family: "poppins", sans-serif;
   font-style: bold;
-  font-size: 32px;
+  font-size: 40px;
   text-align: left;
   font-weight: 700;
   vertical-align: top;
@@ -702,6 +697,8 @@ input[type="submit"]:disabled {
     font-size: 48px;
     color: #091e42;
     margin-top: 1px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
   }
 
   .section-1 div {
@@ -781,6 +778,10 @@ input[type="submit"]:disabled {
     padding: 24px;
     background-repeat: no-repeat;
   }
+  
+  p {
+    line-height: 24px;
+  }
 
   .grid-container5 {
     width: 1156px;
@@ -808,9 +809,59 @@ input[type="submit"]:disabled {
   }
 
   .grid-container5 div p {
+    height: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 25px;
+  }
+  
+  .grid-container6 .grid-item2 ul {
+    width: 400px;
+    height: 24px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .grid-container5 .grid-item2 ul {
+    width: 400px;
+    height: 24px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .grid-container6 .grid-item2 p {
+    width: 496px;
+    height: 70px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .grid-container7 .grid-item2 p {
+    width: 496px;
+    height: 70px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .section-2 h2 {
+    font-size: 40px;
+  }
+  .grid-container1 .grid-item2 .subhead {
+    width: 400px;
+    height: 24px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .grid-container7 .grid-item2 ul {
+    width: 400px;
+    height: 24px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
   }
 
   #canopy {
@@ -819,6 +870,7 @@ input[type="submit"]:disabled {
     font-family: "poppins", sans-serif;
     margin-right: 15px;
     width: 96px;
+    font-weight: 500;
     height: 24px;
   }
 
@@ -831,6 +883,11 @@ input[type="submit"]:disabled {
     letter-spacing: 3%;
     background-color: #ebebff;
     border: #dfe1e6;
+  }
+  
+  .rubyonrails-button:hover {
+    background-color: #6070ff;
+    color: white;
   }
 
   .grid-container5 div ul {
@@ -900,6 +957,49 @@ input[type="submit"]:disabled {
     display: none;
   }
 
+  .section-3 {
+    width: 1440px;
+    height: 668px;
+    display: grid;
+    grid-template-columns: 589px 800px;
+    column-gap: 50px;
+  }
+  
+  .for-pc {
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 142px;
+    margin-top: 142px;
+    margin-bottom: 142px;
+  }
+  .for-pc p {
+    width: 447px;
+    height: 102px;
+    line-height: 24px;
+    font-size: 16px;
+    align-items: flex-end;
+  }
+  
+  .for-pc2 {
+    width: 447px;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 142px;
+    margin-bottom: 142px;
+    padding-top: 40px;
+  }
+  
+  .super-class {
+    width: 648px;
+
+  }
+
   footer {
     width: 1440px;
     height: 846px;
@@ -912,11 +1012,9 @@ input[type="submit"]:disabled {
   form {
     width: 1440px;
     height: 846px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
-    align-items: center;
+    align-items: top;
   }
   
   footer legend {
@@ -936,4 +1034,88 @@ input[type="submit"]:disabled {
     justify-content: center;
     align-items: center;
   }
+
+  form header p {
+    width: 569px;
+    height: 102px;
+    font-size: 20px;
+  }
+
+  form legend {
+    font-size: 40px;
+  }
+  
+  input[type="text"] {
+    width: 447px;
+    height: 48px;
+    border-radius: 2px;
+  }
+
+  input[type="email"] {
+    width: 447px;
+    height: 48px;
+    border-radius: 2px;
+  }
+
+  textarea {
+    width: 447px;
+    height: 170px;
+    border-radius: 2px;
+  } 
+
+  ul li input[type="submit"] {
+    width: 142px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 28px;
+    margin-left: 150px;
+    margin-bottom: 28px;
+  }
+
+  ::placeholder[type="name"] {
+    color: #172b4d;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  ::placeholder[type="email"] {
+    color: #172b4d;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  
+  hr {
+    width: 648px;
+    height: 1px;
+    top: 71px;
+    color: #dfe1e6;
+    margin-top: 2px;
+  }
+  
+  #images  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 12px;
+    position: relative;
+    padding-left: 1px;
+    width: 414px;
+    height: 120px;
+    border-radius: 8px;
+    color: #253858;
+    font-size: 15px;
+    padding: 25px;
+  }
+
+  #images .language{
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
 }
