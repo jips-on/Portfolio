@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+body {
+  overflow-x: hidden;
+}
+
 header nav {
   display: flex;
   text-align: center;
@@ -637,6 +641,11 @@ input[type="submit"]:disabled {
 }
 
 @media (min-width: 768px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+
   header {
     width: 1440px;
     display: flex;
