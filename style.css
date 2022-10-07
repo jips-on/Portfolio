@@ -652,6 +652,8 @@ input[type="submit"]:disabled {
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
+    background-color: #e5e5e5;
+    margin: 1px;
   }
 
   header {
@@ -683,6 +685,12 @@ input[type="submit"]:disabled {
     margin-left: 120px;
   }
 
+  .section1class {
+    background-color: #fff;
+    background-size: 1440px 916px;
+    border-bottom-left-radius: 100px;
+  }
+
   header ul {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -710,6 +718,7 @@ input[type="submit"]:disabled {
     justify-content: center;
     flex-direction: column;
     background-image: url("Header bg.png");
+    background-position: 1px 30px;
     width: 1440px;
     height: 816px;
     margin-top: 8px;
@@ -799,7 +808,7 @@ input[type="submit"]:disabled {
   .grid-container1 {
     width: 1156px;
     height: 496px;
-    padding: 142px;
+    margin: 142px;
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10px;
@@ -809,7 +818,6 @@ input[type="submit"]:disabled {
     gap: 12px;
     border: 1px;
     border-color: #dfe1e6;
-    margin: 1px;
   }
 
   .grid-container1 .grid-item1 {
@@ -824,7 +832,7 @@ input[type="submit"]:disabled {
   .grid-container5 {
     width: 1156px;
     height: 496px;
-    padding: 142px;
+    margin: 142px;
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10px;
@@ -834,7 +842,6 @@ input[type="submit"]:disabled {
     gap: 12px;
     border: 1px;
     border-color: #dfe1e6;
-    margin: 1px;
   }
 
   .grid-container5 .grid-item1 {
@@ -844,6 +851,13 @@ input[type="submit"]:disabled {
     border-radius: 8px;
     padding: 24px;
     background-repeat: no-repeat;
+  }
+  
+  .grid-container5 .grid-item2 {
+    padding-left: 45px;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
   }
 
   .grid-container5 div p {
@@ -873,12 +887,20 @@ input[type="submit"]:disabled {
     display: flex;
     align-items: center;
   }
+  .grid-container6 .grid-item2 {
+    padding-top: 24px;
+  }
 
   .grid-container6 .grid-item2 p {
     width: 496px;
     height: 70px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .grid-container7 .grid-item2 {
+    padding-top: 24px;
+    padding-left: 24px;
   }
 
   .grid-container7 .grid-item2 p {
@@ -936,13 +958,13 @@ input[type="submit"]:disabled {
   .grid-container6 {
     width: 1156px;
     height: 496px;
-    padding: 142px;
+    margin: 142px;
     display: grid;
     grid-template-columns: 50% 50%;
     background-image: url("hand-cursor\ 1.png");
     background-size: 57px 57px;
     background-repeat: no-repeat;
-    background-position: 1150px 428px;
+    background-position: 980px 328px;
     column-gap: 10px;
     grid-template-rows: 0%;
     background-color: #fff;
@@ -950,11 +972,11 @@ input[type="submit"]:disabled {
     gap: 12px;
     border: 1px;
     border-color: #dfe1e6;
-    margin: 1px;
   }
 
   .grid-container6 .grid-item1 {
     background-image: url("Snapshoot\ Portfolio3.png");
+    background-position: 15px 20px;
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -965,7 +987,7 @@ input[type="submit"]:disabled {
   .grid-container7 {
     width: 1156px;
     height: 496px;
-    padding: 142px;
+    margin: 142px;
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10px;
@@ -975,11 +997,11 @@ input[type="submit"]:disabled {
     gap: 12px;
     border: 1px;
     border-color: #dfe1e6;
-    margin: 1px;
   }
 
   .grid-container7 .grid-item1 {
     background-image: url("Snapshoot\ Portfolio4.png");
+    background-position: 1px 25px;
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -1001,10 +1023,12 @@ input[type="submit"]:disabled {
 
   .section-3 {
     width: 1440px;
-    height: 668px;
+    height: 1024px;
     display: grid;
     grid-template-columns: 589px 800px;
     column-gap: 50px;
+    background-color: #fff;
+    padding-bottom: 100px;
   }
 
   .for-pc {
@@ -1018,14 +1042,14 @@ input[type="submit"]:disabled {
   }
 
   .for-pc2 {
-    width: 447px;
+    width: 697px;
     height: 457px;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: space-between;
     margin-right: 100px;
-    margin-top: 142px;
+    margin-top: 272px;
     margin-bottom: 142px;
     padding-top: 40px;
   }
@@ -1041,6 +1065,7 @@ input[type="submit"]:disabled {
     background-image: url("contact\ form\ background\ shapes.png");
     background-repeat: no-repeat;
     background-position: left;
+    margin-top: 1px;
   }
 
   form {
