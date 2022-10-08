@@ -251,40 +251,6 @@ footer ul {
   object-fit: contain;
 }
 
-.grid-container2 .grid-item1 {
-  display: flex;
-  left: 16px;
-  top: 16px;
-  width: 395px;
-  height: 262px;
-  background-image: url("Snapshoot\ Portfolio\(2\)\ mobile.png");
-  background-repeat: no-repeat;
-  object-fit: contain;
-  transition: 0.5s ease;
-}
-
-.grid-container3 .grid-item1 {
-  display: flex;
-  left: 16px;
-  top: 16px;
-  width: 395px;
-  height: 262px;
-  background-image: url("Snapshoot\ Portfolio\(3\)mobile.png");
-  background-repeat: no-repeat;
-  object-fit: contain;
-}
-
-.grid-container4 .grid-item1 {
-  display: flex;
-  left: 16px;
-  top: 16px;
-  width: 395px;
-  height: 262px;
-  background-image: url("Snapshoot\ Portfolio\(4\)\ mobile.png");
-  background-repeat: no-repeat;
-  object-fit: contain;
-}
-
 .grid-container1 .grid-item1:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
