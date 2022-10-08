@@ -251,6 +251,11 @@ footer ul {
   object-fit: contain;
 }
 
+.grid-container1 .grid-item1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
 .section-2 div h2 {
   font-family: "poppins", sans-serif;
   font-style: bold;
