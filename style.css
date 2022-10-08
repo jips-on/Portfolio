@@ -133,7 +133,6 @@ footer ul {
   justify-content: center;
   min-width: 250px;
   margin-top: 50px;
-  margin-top: 50px;
 }
 
 .grid-container1 {
@@ -692,6 +691,13 @@ input[type="submit"]:disabled {
     background-size: 100%;
     margin: 1px;
   }
+  
+  form header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .section1class header {
     background-color: #fff;
@@ -907,7 +913,7 @@ input[type="submit"]:disabled {
     padding: 24px;
     background-repeat: no-repeat;
   }
-  
+
   .grid-container5 .grid-item2 {
     padding-left: 45px;
     padding-top: 25px;
@@ -942,6 +948,7 @@ input[type="submit"]:disabled {
     display: flex;
     align-items: center;
   }
+
   .grid-container6 .grid-item2 {
     padding-top: 24px;
   }
@@ -1106,7 +1113,7 @@ input[type="submit"]:disabled {
     margin-top: 142px;
     margin-bottom: 100px;
   }
-  
+
   .language-container {
     width: 447px;
     display: flex;
@@ -1153,13 +1160,6 @@ input[type="submit"]:disabled {
     height: 56px;
     line-height: 52%;
     margin-top: 100px;
-  }
-
-  form header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   form legend {
