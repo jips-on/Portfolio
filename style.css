@@ -229,11 +229,6 @@ footer ul {
   transition: 0.5s ease;
 }
 
-.grid-container1 .grid-item1:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease;
-}
-
 .grid-container3 .grid-item1 {
   display: flex;
   left: 16px;
@@ -254,6 +249,11 @@ footer ul {
   background-image: url("Snapshoot\ Portfolio\(4\)\ mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
+}
+
+.grid-container1 .grid-item1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 
 .section-2 div h2 {
