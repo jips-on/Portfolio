@@ -117,7 +117,7 @@ footer ul {
   display: flex;
   flex-direction: column;
   text-align: left;
-  background-image: url("/Images/header-shapes\ mobile.png");
+  background-image: url("./Images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -212,7 +212,7 @@ footer ul {
   top: 16px;
   width: 395px;
   height: 262px;
-  background-image: url("/Images/Snapshoot\ Portfolio\ mobile.png");
+  background-image: url("./Images/Snapshoot\ Portfolio\ mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
 }
@@ -223,7 +223,7 @@ footer ul {
   top: 16px;
   width: 395px;
   height: 262px;
-  background-image: url("/Images/Snapshoot\ Portfolio\(2\)\ mobile.png");
+  background-image: url("./Images/Snapshoot\ Portfolio\(2\)\ mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
   transition: 0.5s ease;
@@ -235,7 +235,7 @@ footer ul {
   top: 16px;
   width: 395px;
   height: 262px;
-  background-image: url("/Images/Snapshoot\ Portfolio\(3\)mobile.png");
+  background-image: url("./Images/Snapshoot\ Portfolio\(3\)mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
 }
@@ -246,7 +246,7 @@ footer ul {
   top: 16px;
   width: 395px;
   height: 262px;
-  background-image: url("/Images/Snapshoot\ Portfolio\(4\)\ mobile.png");
+  background-image: url("./Images/Snapshoot\ Portfolio\(4\)\ mobile.png");
   background-repeat: no-repeat;
   object-fit: contain;
 }
@@ -565,7 +565,7 @@ hr {
 
 footer {
   background-color: #6070ff;
-  background-image: url("/Images/contact\ form\ shapes-mobile.png");
+  background-image: url("./Images/contact\ form\ shapes-mobile.png");
   background-size: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -770,7 +770,7 @@ input[type="submit"]:disabled {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url("/Images/Header\ bg.png");
+    background-image: url("./Images/Header\ bg.png");
     background-color: #fff;
     background-size: 100%;
     align-items: center;
@@ -887,7 +887,7 @@ input[type="submit"]:disabled {
   }
 
   .grid-container1 .grid-item1 {
-    background-image: url("/Images/Snapshoot\ Portfolio1.png");
+    background-image: url("./Images/Snapshoot\ Portfolio1.png");
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -911,7 +911,7 @@ input[type="submit"]:disabled {
   }
 
   .grid-container5 .grid-item1 {
-    background-image: url("/Images/Snapshoot\ Portfolio2.png");
+    background-image: url("./Images/Snapshoot\ Portfolio2.png");
     width: 544px;
     height: 448px;
     border-radius: 8px;
@@ -1028,7 +1028,7 @@ input[type="submit"]:disabled {
     margin: 142px;
     display: grid;
     grid-template-columns: 50% 50%;
-    background-image: url("/Images/hand-cursor\ 1.png");
+    background-image: url("./Images/hand-cursor\ 1.png");
     background-size: 57px 57px;
     background-repeat: no-repeat;
     background-position: 980px 328px;
@@ -1042,7 +1042,7 @@ input[type="submit"]:disabled {
   }
 
   .grid-container6 .grid-item1 {
-    background-image: url("/Images/Snapshoot\ Portfolio3.png");
+    background-image: url("./Images/Snapshoot\ Portfolio3.png");
     background-position: 15px 20px;
     width: 544px;
     height: 448px;
@@ -1067,7 +1067,7 @@ input[type="submit"]:disabled {
   }
 
   .grid-container7 .grid-item1 {
-    background-image: url("/Images/Snapshoot\ Portfolio4.png");
+    background-image: url("./Images/Snapshoot\ Portfolio4.png");
     background-position: 1px 25px;
     width: 544px;
     height: 448px;
@@ -1138,7 +1138,7 @@ input[type="submit"]:disabled {
     width: 100%;
     height: 846px;
     background-color: #6070ff;
-    background-image: url("/Images/contact\ form\ background\ shapes.png");
+    background-image: url("./Images/contact\ form\ background\ shapes.png");
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 1px;
@@ -1151,7 +1151,7 @@ input[type="submit"]:disabled {
     justify-content: center;
     align-items: top;
     background-color: #6070ff;
-    background-image: url("/Images/contact\ form\ background\ shapes.png");
+    background-image: url("./Images/contact\ form\ background\ shapes.png");
     background-repeat: no-repeat;
   }
 
